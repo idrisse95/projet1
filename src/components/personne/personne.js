@@ -1,6 +1,6 @@
 import React from 'react'
 import img from "../horaire/img/image-jeremy.png"
-import { Horaire } from '../horaire/horaire'
+// import { Horaire } from '../horaire/horaire'
 
 export const Personne = ({ buttonDaily, buttonMonthly, buttonWeek }) => {
 
