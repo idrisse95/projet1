@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+body{
+    background-color: rgb(15, 15, 44);
+}
+#haut #par:first-child {
+    background: #ff8c66 url(../src/components/horaire/img/icon-work.svg) no-repeat;
+    background-position: 95% -10%;
+    padding-top: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#haut #par:nth-child(2) {
+    background: #a3d6f9 url(../src/components/horaire/img/icon-play.svg) no-repeat;
+    background-position: 95% -10%;
+    padding-top: 40px;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#haut #par:nth-child(3) {
+    background: #ff6678 url(../src/components/horaire/img/icon-study.svg) no-repeat;
+    background-position: 95% -10%;
+    padding-top: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#bas #par:first-child {
+    background: #73d38b url(../src/components/horaire/img/icon-exercise.svg) no-repeat;
+    background-position: 95% -2%;
+    padding-top: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+#bas #par:nth-child(2) {
+    background: #8043dc url(../src/components/horaire/img/icon-social.svg) no-repeat;
+    background-position: 95% -15%;
+    padding-top: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#bas #par:nth-child(3) {
+    background: #e9d158 url(../src/components/horaire/img/icon-self-care.svg) no-repeat;
+    background-position: 95% -10%;
+    padding-top: 40px;
 }
