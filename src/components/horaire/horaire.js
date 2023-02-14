@@ -43,7 +43,7 @@ export const Horaire = () => {
                         
 
                             <div id='haut' className='flex md:w-6/12 max-md:w-[80%] grap-5 flex-wrap' >
-
+ 
                                 {data.map((donnees) => (
 
                                     <div id="par" className='sm:mx-3 mb-5 rounded-xl w-48 max-sm:columns-1 max-sm:mt-5 max-md:w-full  mx-auto'>
