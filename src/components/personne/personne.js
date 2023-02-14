@@ -5,7 +5,7 @@ import img from "../horaire/img/image-jeremy.png"
 export const Personne = ({ buttonDaily, buttonMonthly, buttonWeek }) => {
 
     return (
-        <div className='sm:mr-3'>
+        <div className='sm:mr-3 max-md:w-[80%]'>
             <div className=' bg-blue-c h-full rounded-xl'>
                 <div className='bg-blue-500 text-white h-2/3 max-sm:h-3/4 sm:w-48 p-5 rounded-xl max-sm:flex align-middle'>
                     <div className='mb-8 max-sm:mr-4'><img className='border-2 border-white rounded-full' src={img} width="60px" alt="" /></div>
