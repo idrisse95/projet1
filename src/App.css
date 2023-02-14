@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
- 
-body{
-    background-color: rgb(15, 15, 44);
-}
+
+/* @media screen and (max-width: 769px){
+    #tout{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
 #haut #par:first-child {
     background: #ff8c66 url(../src/components/horaire/img/icon-work.svg) no-repeat;
     background-position: 95% -10%;
